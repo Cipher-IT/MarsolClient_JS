@@ -2,7 +2,7 @@
   "name": "marsol",
   "version": "0.0.1",
   "description": "Marsol.ly services JS SDK",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +14,12 @@
     "libya"
   ],
   "author": "Cipher IT",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
 }
