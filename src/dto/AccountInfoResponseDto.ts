@@ -11,53 +11,53 @@ export interface AccountInfoResponseDto {
      * @type {string}
      * @memberof AccountInfoResponseDto
      */
-    'accountId': string;
+    accountId: string;
     /**
      *
      * @type {string}
      * @memberof AccountInfoResponseDto
      */
-    'firstName': string;
+    firstName: string;
     /**
      *
      * @type {string}
      * @memberof AccountInfoResponseDto
      */
-    'lastName': string;
+    lastName: string;
     /**
      *
      * @type {string}
      * @memberof AccountInfoResponseDto
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {string}
      * @memberof AccountInfoResponseDto
      */
-    'email': string;
+    email: string;
     /**
      *
      * @type {string}
      * @memberof AccountInfoResponseDto
      */
-    'phoneNumber': string;
+    phoneNumber: string;
     /**
      *
      * @type {boolean}
      * @memberof AccountInfoResponseDto
      */
-    'payAsYouGo': boolean;
+    payAsYouGo: boolean;
     /**
      *
      * @type {number}
      * @memberof AccountInfoResponseDto
      */
-    'balance': number;
+    balance: number;
     /**
      *
      * @type {ActiveSubscriptionDto}
      * @memberof AccountInfoResponseDto
      */
-    'activeSubscription': ActiveSubscriptionDto;
+    activeSubscription: ActiveSubscriptionDto;
 }

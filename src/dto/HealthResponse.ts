@@ -10,5 +10,5 @@ export interface HealthResponse {
      * @type {string}
      * @memberof HealthResponse
      */
-    'status'?: 'ok' | 'error';
+    status?: 'ok' | 'error';
 }

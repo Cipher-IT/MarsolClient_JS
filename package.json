@@ -2,8 +2,11 @@
   "name": "marsol",
   "version": "0.0.1",
   "description": "Marsol.ly services JS SDK",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,9 +19,11 @@
   "author": "Cipher IT",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.5.1"
+    "axios": "^1.5.1",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
+    "@types/uuid": "^9.0.6",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }

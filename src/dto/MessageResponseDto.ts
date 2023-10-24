@@ -1,7 +1,7 @@
 import { Duplicate } from "./Duplicate";
 
 /**
- *
+ * نتيجة إرسال رسالة نصية
  * @export
  * @interface MessageResponseDto
  */
@@ -12,23 +12,23 @@ export interface MessageResponseDto {
      * @type {string}
      * @memberof MessageResponseDto
      */
-    'requestId': string;
+    requestId: string;
     /**
      *
      * @type {number}
      * @memberof MessageResponseDto
      */
-    'accepted': number;
+    accepted: number;
     /**
      *
      * @type {Array<string>}
      * @memberof MessageResponseDto
      */
-    'rejected': Array<string>;
+    rejected: Array<string>;
     /**
      *
      * @type {Array<Duplicate>}
      * @memberof MessageResponseDto
      */
-    'duplicates': Array<Duplicate>;
+    duplicates: Array<Duplicate>;
 }

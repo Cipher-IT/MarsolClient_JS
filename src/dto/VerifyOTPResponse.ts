@@ -1,4 +1,4 @@
-import { VerifyOTPResponseStatusEnum, VerifyOTPResponseStatusEnum } from "./VerifyOTPResponseStatusEnum";
+import { VerifyOTPResponseStatusEnum } from "./VerifyOTPResponseStatusEnum";
 
 /**
  *
@@ -11,11 +11,11 @@ export interface VerifyOTPResponse {
      * @type {string}
      * @memberof VerifyOTPResponse
      */
-    'status': VerifyOTPResponseStatusEnum;
+    status: VerifyOTPResponseStatusEnum;
     /**
      *
      * @type {string}
      * @memberof VerifyOTPResponse
      */
-    'message': string;
+    message: string;
 }
